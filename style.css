@@ -1,0 +1,109 @@
+body{
+  height: 100vh;
+  background: rgb(5, 5, 5) url(asset/BACKGROUND\ WHITE.jpg) center center no-repeat fixed;
+  background-size: cover;
+}
+/* Style the image profile */
+.container {
+  max-width: 100%; 
+  height: auto; 
+}
+
+img {
+  width: 100%; 
+  height: auto; 
+}
+
+/* Style the h1 element */
+h1 {
+  color: #575F6B;
+  text-align: center;
+  font-family: Inter;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 1.2px;
+  margin: auto;
+}
+.fill {
+  background: -webkit-linear-gradient (left, #9CBCB1, #556468);
+  background: linear-gradient(to left, #9CBCB1, #556468);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+/* Style the h2 element */
+h2 {
+  color: #575F6B;
+  text-align: center;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.9px;
+  margin: auto;
+}
+.logo-conteneur{
+  display: flex;
+  margin-left: 5.625rem;
+  margin-right: 5.625rem;
+}
+/* Style the circle-button */
+.circle-button {
+  background-color: white; 
+  flex-direction: row;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 112px;
+  border: 2px solid var(--stroke1, #FFF);
+  background: var(--fill1, linear-gradient(135deg, #F0F1F4 0%, #DFE0E7 100%));
+  box-shadow: 1px 2px 8px 0px rgba(0, 0, 0, 0.36), 1px 5px 14px 0px rgba(0, 0, 0, 0.37), -5px -4px 15px 0px rgba(255, 255, 255, 0.85), 10px 10px 30px 0px #D0D3E2, 1px 1px 21px 0px #D4D7E6, -1px -1px 31px 0px #FFF;
+  margin: auto;
+}
+/* Style the rounded-button */
+.rounded-button { 
+  display: flex;
+  width: 273px;
+  height: 63px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0; 
+  border-radius: 13px;
+/* Style the typographie */
+  color: rgba(87, 95, 107, 0.80);
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-transform: uppercase;
+  border: 2px solid var(--stroke1, #FFF);
+  background: var(--fill1, linear-gradient(135deg, #F0F1F4 0%, #DFE0E7 100%));
+  box-shadow: 1px 2px 8px 0px rgba(0, 0, 0, 0.36), 1px 5px 14px 0px rgba(0, 0, 0, 0.37), 1px 1px 21px 0px #D4D7E6;
+  margin: auto;
+  text-decoration: none;
+  margin-bottom: 15px;
+
+}
+/* CSS for Button Hover Effect */
+.rounded-button:hover {
+  background-color: #2980b9; /* Change color on hover */
+  cursor: pointer;
+}
+
+/* CSS for Button Active State */
+.rounded-button:active {
+  background-color: #050705; /* Change color when clicked */
+}
+
+.fab, .fas {
+  color: #575F6B;
+}
+
+
+
