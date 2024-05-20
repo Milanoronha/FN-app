@@ -1,14 +1,17 @@
-body{
+body {
   height: 100vh;
   background: rgb(5, 5, 5) url(asset/BACKGROUND\ WHITE.jpg) center center no-repeat fixed;
   background-size: cover;
 }
 /* Style the image profile */
+.card-profile {
+  height: 800px;
+  width: 360px; 
+  align-content: center;
+}
 .container {
-  max-width: 100%; 
   height: auto; 
 }
-
 img {
   width: 100%; 
   height: auto; 
@@ -46,8 +49,8 @@ h2 {
 }
 .logo-conteneur{
   display: flex;
-  margin-left: 5.625rem;
-  margin-right: 5.625rem;
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
 }
 /* Style the circle-button */
 .circle-button {
@@ -57,7 +60,7 @@ h2 {
   justify-content: center;
   align-items: center;
   gap: 10px;
-  border-radius: 112px;
+  border-radius: 50%;
   border: 2px solid var(--stroke1, #FFF);
   background: var(--fill1, linear-gradient(135deg, #F0F1F4 0%, #DFE0E7 100%));
   box-shadow: 1px 2px 8px 0px rgba(0, 0, 0, 0.36), 1px 5px 14px 0px rgba(0, 0, 0, 0.37), -5px -4px 15px 0px rgba(255, 255, 255, 0.85), 10px 10px 30px 0px #D0D3E2, 1px 1px 21px 0px #D4D7E6, -1px -1px 31px 0px #FFF;
@@ -88,7 +91,6 @@ h2 {
   margin: auto;
   text-decoration: none;
   margin-bottom: 15px;
-
 }
 /* CSS for Button Hover Effect */
 .rounded-button:hover {
