@@ -5,11 +5,11 @@ A profile page for an app.
 
 > This application recreates the basic structure of a user profile page. It includes sections for:
 
-☝🏽: User information
+☝🏽 User information
 
-✌🏽: Profile picture
+✌🏽 Profile picture
 
-🤟🏽: Interactive elements (buttons or links) for functionalities like downloading a portfolio or connecting on social media.
+🤟🏽 Interactive elements (buttons or links) for functionalities like downloading a portfolio or connecting on social media.
 
-🏆 The goal:
+🏆 The goal
 The project utilizes HTML to structure the content of the app, defining elements like headings, paragraphs, and images. CSS is then used to style these elements, controlling their appearance and layout.
